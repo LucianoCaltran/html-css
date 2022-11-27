@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*
+em HTML usa-se id e em CSS usa-se #
+em HTML usa-se class e em CSS usa-se .
+*/
+body{
+    background-color: hsl(180, 80%, 76%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: hsl(180, 86%, 17%);
+}
+h1#principal{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+    background-color: hsl(180, 98%, 23%);
+    color: aliceblue;
+}
+h2{
+    color: hsl(180, 98%, 23%);
+}
+.basico{
+    color: blue;
+}
+.avançado{
+    color: brown;
+}

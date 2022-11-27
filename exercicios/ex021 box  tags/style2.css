@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Island+Moments&display=swap');
+
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: darkgrey;
+    margin: 0px;
+}
+header{
+    background-color: rgb(58, 107, 151);
+    padding: 10px;
+    margin: 10px;
+}
+p#principal{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Island Moments', cursive;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 50px;
+}
+p#p2{
+    margin: 10px;
+    text-align: center;
+}
+nav{
+    background-color: rgb(228, 137, 62);
+    padding: 3px;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.621);
+    border-radius: 5px 5px;
+    }
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+article{
+    background-color: rgb(58, 107, 151);
+    padding: 20px;
+    }
+article > aside{
+    background-color: darkgrey;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.155);
+    border-radius: 5px 5px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}

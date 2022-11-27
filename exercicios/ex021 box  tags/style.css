@@ -1,0 +1,56 @@
+@charset "UTF-8";
+h1{ /*BOX-LEVEL*/
+    background-color: cornflowerblue;
+    height: 300px;
+    width: 300px;
+
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkblue;
+    Simplificando utilizando sempre no sentido horário
+    */
+    border: 10px solid darkblue;
+
+    color: aliceblue;
+    text-align: center;
+
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+    padding: 10px; /*como as medidas são todas iguais, foi informado apenas uma vez*/
+
+    /*
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    */
+    margin: 20px auto 40px auto;
+
+    /*
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+    */
+    outline: 5px dashed salmon;
+}
+a{ /*INLINE-LEVEL*/
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    */
+    border: 10px solid red;
+
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+    padding: 10px;
+}
