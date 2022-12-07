@@ -12,6 +12,7 @@
     <!--
         Anatomia de tabelas grandes
         Table
+            Caption
             THead
                 tr, td, th
             TBody
@@ -20,10 +21,11 @@
                 tr, td, th
     -->
     <table>
+        <caption>População dos Estados Brasileiros</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px">População</th>
             </tr>
         </thead>
         <tbody>
@@ -82,7 +84,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <strong><td class="num">167.820.643</td></strong>
             </tr>
         </tfoot>
