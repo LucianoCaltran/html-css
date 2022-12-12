@@ -7,6 +7,7 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 caption{
@@ -16,6 +17,11 @@ caption{
     background-color: rgb(107, 153, 189);
 }
 
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
 td, th{
     border: 1px solid ;
     padding: 10px;
